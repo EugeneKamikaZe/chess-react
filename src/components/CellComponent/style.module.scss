@@ -1,0 +1,57 @@
+@import "src/scss/components/variables",
+"src/scss/components/base",
+"src/scss/components/mixins";
+
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 90px;
+  height: 90px;
+
+  //background-color: gray;
+
+  border-radius: 4px;
+}
+
+.selected {
+  outline: dashed #32a1ce;
+  z-index: 1;
+
+  &.black {
+    background-color: rgba(#c1b583, 5%);
+  }
+
+  &.white {
+    background-color: rgba(#fff, 5%);
+  }
+
+}
+
+.figure {
+  width: 80px;
+  height: 80px;
+  z-index: 2;
+}
+
+.black {
+  //background-color: #c1b583;
+  @extend .neomorph__flat;
+}
+
+.white {
+  //background-color: #fff;
+  @extend .neomorph__pressed;
+}
+
+.available {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.FFFF {
+  background-color: green;
+}

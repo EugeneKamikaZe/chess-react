@@ -1,0 +1,28 @@
+.neomorph__flat {
+  border-radius: 10px;
+  background: $default-gray;
+  box-shadow: $primary-shadow-light,
+  $secondary-shadow-light;
+}
+
+.neomorph__concave {
+  @extend .neomorph__flat;
+  background: linear-gradient(145deg, $gray-1, $white);
+}
+
+.neomorph__convex {
+  @extend .neomorph__flat;
+  background: linear-gradient(145deg, $white, $gray-1);
+}
+
+.neomorph__pressed {
+  @extend .neomorph__flat;
+  box-shadow: inset $primary-shadow-light,
+  inset $secondary-shadow-light;
+}
+
+@mixin neomorph($type) {
+  .neomorph__#{$type} {
+
+  }
+}

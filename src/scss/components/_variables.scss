@@ -1,0 +1,31 @@
+//Fonts
+$base-font: 'Barlow', sans-serif !default;
+$lato-font: 'Lato', sans-serif !default;
+$bebas-font: 'Bebas Neue', cursive !default;
+
+//Font size
+$font-size-xs: 12px !default;
+$font-size-sm: 14px !default;
+$font-size-md: 16px !default;
+$font-size-lg: 18px !default;
+$font-size-xl: 20px !default;
+
+//Font weight
+$font-weight-light: 300 !default;
+$font-weight-regular: 400 !default;
+$font-weight-semibold: 500 !default;
+$font-weight-bold: 700 !default;
+$font-weight-extrabold: 900 !default;
+
+//Colors
+$default-gray: #eeeeee !default;
+$white: #fff !default;
+$gray-1: #d1d1d1 !default;
+$gray-2: #e4e4e4 !default;
+$gray-3: #f8f8f8 !default;
+
+//Shadows
+$primary-shadow: 10px 10px 20px $gray-1 !default;
+$secondary-shadow: -10px -10px 20px $white !default;
+$primary-shadow-light: 10px 10px 20px $gray-2 !default;
+$secondary-shadow-light: -10px -10px 20px $gray-3 !default;

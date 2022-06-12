@@ -1,0 +1,10 @@
+@import "src/scss/components/variables",
+"src/scss/components/base",
+"src/scss/components/mixins";
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+
+  @extend .neomorph__flat;
+}

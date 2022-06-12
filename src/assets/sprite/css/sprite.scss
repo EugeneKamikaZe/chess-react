@@ -1,0 +1,88 @@
+%svg-common {
+	background: url("sprite-f8916ac7.svg") no-repeat;
+}
+
+.svg-bishop_B {
+	@extend %svg-common;
+	background-position: 0 0;
+	width: 32px;
+	height: 32px;
+}
+
+.svg-bishop_W {
+	@extend %svg-common;
+	background-position: 0 9.090909090909092%;
+	width: 32px;
+	height: 32px;
+}
+
+.svg-king_B {
+	@extend %svg-common;
+	background-position: 0 18.181818181818183%;
+	width: 32px;
+	height: 32px;
+}
+
+.svg-king_W {
+	@extend %svg-common;
+	background-position: 0 27.272727272727273%;
+	width: 32px;
+	height: 32px;
+}
+
+.svg-knight_B {
+	@extend %svg-common;
+	background-position: 0 36.36363636363637%;
+	width: 32px;
+	height: 32px;
+}
+
+.svg-knight_W {
+	@extend %svg-common;
+	background-position: 0 45.45454545454545%;
+	width: 32px;
+	height: 32px;
+}
+
+.svg-pawn_B {
+	@extend %svg-common;
+	background-position: 0 54.54545454545455%;
+	width: 32px;
+	height: 32px;
+}
+
+.svg-pawn_W {
+	@extend %svg-common;
+	background-position: 0 63.63636363636363%;
+	width: 32px;
+	height: 32px;
+}
+
+.svg-queen_B {
+	@extend %svg-common;
+	background-position: 0 72.72727272727273%;
+	width: 32px;
+	height: 32px;
+}
+
+.svg-queen_W {
+	@extend %svg-common;
+	background-position: 0 81.81818181818181%;
+	width: 32px;
+	height: 32px;
+}
+
+.svg-rook_B {
+	@extend %svg-common;
+	background-position: 0 90.9090909090909%;
+	width: 32px;
+	height: 32px;
+}
+
+.svg-rook_W {
+	@extend %svg-common;
+	background-position: 0 100%;
+	width: 32px;
+	height: 32px;
+}
+

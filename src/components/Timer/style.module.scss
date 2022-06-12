@@ -1,0 +1,34 @@
+@import "src/scss/components/variables",
+"src/scss/components/base",
+"src/scss/components/mixins";
+
+.timer {
+  width: 200px;
+  padding: 16px;
+
+  @extend .neomorph__pressed;
+
+  margin-bottom: 32px;
+}
+
+.headings {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: $font-size-lg;
+
+  .time {
+    min-width: 60px;
+    text-align: center;
+  }
+
+  .dots {
+    font-weight: $font-weight-extrabold;
+  }
+}

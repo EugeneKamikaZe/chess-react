@@ -1,0 +1,72 @@
+.svg-bishop_B {
+	background: url("sprite-f8916ac7.svg") 0 0 no-repeat;
+	width: 32px;
+	height: 32px;
+}
+
+.svg-bishop_W {
+	background: url("sprite-f8916ac7.svg") 0 9.090909090909092% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+
+.svg-king_B {
+	background: url("sprite-f8916ac7.svg") 0 18.181818181818183% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+
+.svg-king_W {
+	background: url("sprite-f8916ac7.svg") 0 27.272727272727273% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+
+.svg-knight_B {
+	background: url("sprite-f8916ac7.svg") 0 36.36363636363637% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+
+.svg-knight_W {
+	background: url("sprite-f8916ac7.svg") 0 45.45454545454545% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+
+.svg-pawn_B {
+	background: url("sprite-f8916ac7.svg") 0 54.54545454545455% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+
+.svg-pawn_W {
+	background: url("sprite-f8916ac7.svg") 0 63.63636363636363% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+
+.svg-queen_B {
+	background: url("sprite-f8916ac7.svg") 0 72.72727272727273% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+
+.svg-queen_W {
+	background: url("sprite-f8916ac7.svg") 0 81.81818181818181% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+
+.svg-rook_B {
+	background: url("sprite-f8916ac7.svg") 0 90.9090909090909% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+
+.svg-rook_W {
+	background: url("sprite-f8916ac7.svg") 0 100% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+

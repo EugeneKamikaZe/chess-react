@@ -1,0 +1,43 @@
+@import "scss/components/variables",
+"scss/components/base",
+"scss/components/mixins";
+
+.containerTitle {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.containerWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.lostFigures {
+  min-height: 380px;
+  padding: 16px;
+  width: 200px;
+
+  @extend .neomorph__flat;
+}
+
+.currentPlayer {
+  padding: 16px;
+  width: 200px;
+  margin-bottom: 32px;
+
+  @extend .neomorph__pressed;
+
+  .current {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 16px;
+  }
+}
+
+.history {
+  min-height: 380px;
+  padding: 16px;
+  width: 200px;
+
+  @extend .neomorph__flat;
+}
